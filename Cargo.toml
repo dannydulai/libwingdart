@@ -2,11 +2,15 @@
 name = "libwingdart"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
-allo-isolate = "0.1.26"
-libwing = "1.0.3"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/dannydulai/libwingdart"
+description = "A library for communicationg with the Behringer Wing Digital Mixer via Flutter/Dart"
 
 [lib]
 name = "libwingdart"
 crate-type = ["cdylib"]
+
+[dependencies]
+allo-isolate = "0.1.26"
+libwing = "1.0.3"
