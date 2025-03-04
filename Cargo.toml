@@ -1,0 +1,12 @@
+[package]
+name = "libwingdart"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+allo-isolate = "0.1.26"
+libwing = "1.0.3"
+
+[lib]
+name = "libwingdart"
+crate-type = ["cdylib"]
